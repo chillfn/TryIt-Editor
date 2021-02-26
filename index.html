@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US"><head>
-<title>Tryit Editor v3.6</title>
+<title>Tryit Editor v1.0</title>
 <meta name="viewport" content="width=device-width">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:image" content="https://www.w3schools.com/images/w3schools_logo.png">
@@ -380,9 +380,9 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;}
 
 <div class="trytopnav">
 <div class="w3-bar" style="overflow:auto">
-  <a id="tryhome" href="https://www.w3schools.com" target="_blank" title="w3schools.com Home" class="w3-button w3-bar-item topnav-icons fa fa-home" style="font-size:28px;margin-top:-2px"></a>
-  <a href="javascript:void(0);" onclick="openMenu()" id="menuButton" title="Open Menu" class="w3-dropdown-click w3-button w3-bar-item topnav-icons fa fa-menu w3-text-gray w3-gray" style="font-size:28px;margin-top:-2px"></a>
-  <a href="javascript:void(0);" onclick="click_savebtn()" title="Save" class="w3-button w3-bar-item topnav-icons fa fa-save" style="font-size:28px;margin-top:-2px"></a>
+ 
+  
+ 
   <a href="javascript:void(0);" onclick="restack(currentStack)" title="Change Orientation" class="w3-button w3-bar-item topnav-icons fa fa-rotate" style="font-size:28px;margin-top:-2px"></a>
   <a href="javascript:void(0);" onclick="retheme()" title="Change Theme" class="w3-button w3-bar-item topnav-icons fa fa-adjust" style="font-size:28px;margin-top:-2px"></a>
   <button class="w3-button w3-bar-item w3-green w3-hover-white w3-hover-text-green" style="font-size:16px" onclick="submitTryit(1);ga('send', 'event', 'runCode', 'click');snhb.queue.push(function(){googletag.pubads().setTargeting('page_section',(function () {var folder = location.pathname;folder = folder.replace('/', ''); folder = folder.substr(0, folder.indexOf('/')); return folder + 'tryitUA'; })());snhb.startAuction(['try_it_leaderboard']);});">Run »</button>
@@ -400,9 +400,7 @@ body.darktheme ::-webkit-scrollbar-thumb:hover {background-color: #aaaaaa;}
 <span onclick="openMenu()" class="w3-button w3-display-topright w3-transparent w3-hover-dark-grey" title="Close Menu" style="font-weight:bold;padding-top:10px;padding-bottom:11px;">×</span>
   <div class="w3-bar-block">
     <a class="w3-bar-item w3-button" href="javascript:void(0);" title="Change Orientaton" onclick="openMenu();restack(currentStack)"></a>
-    <a class="w3-bar-item w3-button" href="javascript:void(0);" title="Save" onclick="openMenu();click_savebtn()"></a>
-    <a class="w3-bar-item w3-button" href="javascript:void(0);" id="saveGDriveBtn" title="Save to Google Drive" onclick="openMenu();click_google_savebtn()"></a>
-    <a class="w3-bar-item w3-button" href="javascript:void(0);" id="loadGDriveBtn" title="Load from Google Drive" onclick="openMenu();click_google_loadbtn()"></a>
+   
     <a class="w3-bar-item w3-button" href="javascript:void(0);" title="Change Theme" onclick="openMenu();retheme()"><i class="fa fa-adjust" style="font-size:26px;margin-right:8px"></i><span style="position:relative;top:-4px;left:2px;">Change Theme, Dark/Light</span></a>
   </div>
   <footer class="w3-container w3-small w3-light-gray">
